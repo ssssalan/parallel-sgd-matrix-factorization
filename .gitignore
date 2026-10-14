@@ -1,0 +1,30 @@
+# Build artifacts
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.out
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local datasets and generated artifacts
+data/*.csv
+data/*.dat
+data/*.bin
+!data/README.md
+
+# Experiment outputs
+results/*.csv
+!results/README.md
+!results/example_metrics.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

@@ -1,0 +1,2 @@
+method,threads,rank,epoch,validation_rmse,epoch_seconds,cumulative_seconds,final_test_rmse
+example,4,32,1,0.00000000,0.00000000,0.00000000,0.00000000
