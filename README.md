@@ -123,6 +123,8 @@ The paper reports the following total training times:
 | 8 | **6.1 s** | 14.9 s | 7.5 s |
 | 16 | **3.5 s** | 10.5 s | 5.0 s |
 
+![Published total training time](figures/published_training_time.svg)
+
 At 16 threads, the reported total training time is:
 
 ```text
@@ -152,7 +154,11 @@ Using the published training times above:
 | 8 | 2.44× | 1.99× |
 | 16 | **3.00×** | **2.10×** |
 
+![Published relative speedup vs DSGD](figures/relative_speedup_vs_dsgd.svg)
+
 This is different from conventional per-model parallel speedup `T(1) / T(p)`.
+
+The numeric values used for these recruiter-facing plots are stored in [`results/published_paper_results.csv`](results/published_paper_results.csv).
 
 ### Convergence
 
@@ -166,6 +172,8 @@ A-ASGD:          ~0.788 RMSE
 The approximately 0.01 RMSE difference reflects the throughput-accuracy trade-off introduced by partially lock-free updates.
 
 The central claim is therefore an **efficiency-stability trade-off**, rather than best RMSE alone.
+
+> **Reproducibility note:** the paper includes an RMSE-convergence figure, but the exact per-epoch values are not tabulated in the published text. To avoid digitizing or inventing intermediate points, this repository currently reports only the endpoint summary supported by the paper.
 
 ---
 
@@ -220,9 +228,12 @@ parallel-sgd-matrix-factorization/
 │   └── README.md
 ├── results/
 │   ├── README.md
-│   └── example_metrics.csv
+│   ├── example_metrics.csv
+│   └── published_paper_results.csv
 ├── figures/
-│   └── README.md
+│   ├── README.md
+│   ├── published_training_time.svg
+│   └── relative_speedup_vs_dsgd.svg
 └── docs/
     └── RESEARCH_IMPLEMENTATION.md
 ```
