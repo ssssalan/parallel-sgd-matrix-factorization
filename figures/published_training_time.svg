@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="540" viewBox="0 0 920 540" role="img" aria-label="Published Total Training Time (30 Epochs)">
+<rect width="100%" height="100%" fill="white"/>
+<text x="460" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700">Published Total Training Time (30 Epochs)</text>
+<line x1="86" y1="466" x2="888" y2="466" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="471" text-anchor="end" font-family="Arial, sans-serif" font-size="14">0</text>
+<line x1="86" y1="392.1818181818182" x2="888" y2="392.1818181818182" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="397.1818181818182" text-anchor="end" font-family="Arial, sans-serif" font-size="14">20</text>
+<line x1="86" y1="318.3636363636364" x2="888" y2="318.3636363636364" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="323.3636363636364" text-anchor="end" font-family="Arial, sans-serif" font-size="14">40</text>
+<line x1="86" y1="244.54545454545456" x2="888" y2="244.54545454545456" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="249.54545454545456" text-anchor="end" font-family="Arial, sans-serif" font-size="14">60</text>
+<line x1="86" y1="170.7272727272727" x2="888" y2="170.7272727272727" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="175.7272727272727" text-anchor="end" font-family="Arial, sans-serif" font-size="14">80</text>
+<line x1="86" y1="96.90909090909093" x2="888" y2="96.90909090909093" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="101.90909090909093" text-anchor="end" font-family="Arial, sans-serif" font-size="14">100</text>
+<line x1="86" y1="60" x2="86" y2="466" stroke="#f1f1f1" stroke-width="1"/>
+<text x="86" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">1</text>
+<line x1="286.5" y1="60" x2="286.5" y2="466" stroke="#f1f1f1" stroke-width="1"/>
+<text x="286.5" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">2</text>
+<line x1="487" y1="60" x2="487" y2="466" stroke="#f1f1f1" stroke-width="1"/>
+<text x="487" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">4</text>
+<line x1="687.5" y1="60" x2="687.5" y2="466" stroke="#f1f1f1" stroke-width="1"/>
+<text x="687.5" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">8</text>
+<line x1="888" y1="60" x2="888" y2="466" stroke="#f1f1f1" stroke-width="1"/>
+<text x="888" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">16</text>
+<line x1="86" y1="60" x2="86" y2="466" stroke="#333" stroke-width="1.5"/>
+<line x1="86" y1="466" x2="888" y2="466" stroke="#333" stroke-width="1.5"/>
+<text x="487" y="518" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Number of Threads</text>
+<text x="24" y="263" transform="rotate(-90 24 263)" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Total Training Time (s)</text>
+<polyline fill="none" stroke="#1f77b4" stroke-width="3" points="86,363.39272727272726 286.5,405.8381818181818 487,426.5072727272727 687.5,443.48545454545456 888,453.08181818181816"/>
+<circle cx="86" cy="363.39272727272726" r="5" fill="#1f77b4" stroke="white" stroke-width="1.5"/>
+<circle cx="286.5" cy="405.8381818181818" r="5" fill="#1f77b4" stroke="white" stroke-width="1.5"/>
+<circle cx="487" cy="426.5072727272727" r="5" fill="#1f77b4" stroke="white" stroke-width="1.5"/>
+<circle cx="687.5" cy="443.48545454545456" r="5" fill="#1f77b4" stroke="white" stroke-width="1.5"/>
+<circle cx="888" cy="453.08181818181816" r="5" fill="#1f77b4" stroke="white" stroke-width="1.5"/>
+<polyline fill="none" stroke="#ff7f0e" stroke-width="3" points="86,282.1927272727273 286.5,371.14363636363635 487,418.3872727272727 687.5,438.3181818181818 888,447.54545454545456"/>
+<circle cx="86" cy="282.1927272727273" r="5" fill="#ff7f0e" stroke="white" stroke-width="1.5"/>
+<circle cx="286.5" cy="371.14363636363635" r="5" fill="#ff7f0e" stroke="white" stroke-width="1.5"/>
+<circle cx="487" cy="418.3872727272727" r="5" fill="#ff7f0e" stroke="white" stroke-width="1.5"/>
+<circle cx="687.5" cy="438.3181818181818" r="5" fill="#ff7f0e" stroke="white" stroke-width="1.5"/>
+<circle cx="888" cy="447.54545454545456" r="5" fill="#ff7f0e" stroke="white" stroke-width="1.5"/>
+<polyline fill="none" stroke="#2ca02c" stroke-width="3" points="86,78.45454545454544 286.5,274.8109090909091 487,367.8218181818182 687.5,411.00545454545454 888,427.24545454545455"/>
+<circle cx="86" cy="78.45454545454544" r="5" fill="#2ca02c" stroke="white" stroke-width="1.5"/>
+<circle cx="286.5" cy="274.8109090909091" r="5" fill="#2ca02c" stroke="white" stroke-width="1.5"/>
+<circle cx="487" cy="367.8218181818182" r="5" fill="#2ca02c" stroke="white" stroke-width="1.5"/>
+<circle cx="687.5" cy="411.00545454545454" r="5" fill="#2ca02c" stroke="white" stroke-width="1.5"/>
+<circle cx="888" cy="427.24545454545455" r="5" fill="#2ca02c" stroke="white" stroke-width="1.5"/>
+<rect x="666" y="46" width="210" height="104" rx="8" fill="white" stroke="#ccc"/>
+<line x1="678" y1="70" x2="712" y2="70" stroke="#1f77b4" stroke-width="3"/>
+<circle cx="695" cy="70" r="4.5" fill="#1f77b4"/>
+<text x="722" y="75" font-family="Arial, sans-serif" font-size="14">A-ASGD</text>
+<line x1="678" y1="98" x2="712" y2="98" stroke="#ff7f0e" stroke-width="3"/>
+<circle cx="695" cy="98" r="4.5" fill="#ff7f0e"/>
+<text x="722" y="103" font-family="Arial, sans-serif" font-size="14">Hogwild!</text>
+<line x1="678" y1="126" x2="712" y2="126" stroke="#2ca02c" stroke-width="3"/>
+<circle cx="695" cy="126" r="4.5" fill="#2ca02c"/>
+<text x="722" y="131" font-family="Arial, sans-serif" font-size="14">DSGD</text>
+</svg>
