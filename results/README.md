@@ -1,12 +1,29 @@
 # Results
 
-This repository distinguishes between two sources of results.
+This repository separates **published paper results** from results produced by the cleaned public implementation.
 
 ## Published paper results
 
 The IEEE paper reports MovieLens-20M experiments using C++ / OpenMP on an Intel Core i7-13700 workstation.
 
-The published 30-epoch training times are summarized in the root README.
+The transcribed numeric values used by the recruiter-facing plots are stored in:
+
+- [`published_paper_results.csv`](published_paper_results.csv)
+
+Fields:
+
+- `threads`
+- `total_time_aasgd_s`
+- `total_time_dsgd_s`
+- `total_time_hogwild_s`
+- `relative_aasgd_vs_dsgd`
+- `relative_hogwild_vs_dsgd`
+
+The relative comparison is defined as:
+
+```text
+T_DSGD(p) / T_method(p)
+```
 
 These values originate from the published research implementation, not from the cleaned public portfolio code.
 
@@ -29,4 +46,4 @@ Recommended fields include:
 - per-model speedup `T(1) / T(p)`;
 - parallel efficiency `S(p) / p`.
 
-`example_metrics.csv` documents the output schema and should not be treated as a published scientific result.
+`example_metrics.csv` documents the public output schema and should not be treated as a published scientific result.
