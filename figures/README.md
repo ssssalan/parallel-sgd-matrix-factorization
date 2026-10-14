@@ -1,9 +1,13 @@
 # Figures
 
-Recommended figures for the public repository:
+The recruiter-facing figures for this repository should follow the definitions used in the published paper.
 
-1. **Scalability / speedup vs. thread count** (1, 2, 4, 8, 16 threads)
-2. **Validation RMSE vs. epoch** for the baselines and the proposed method
-3. Optional: training time vs. thread count
+Recommended figures:
 
-Do not add figures until they are regenerated from the final audited result tables.
+1. **Total training time vs. thread count** — A-ASGD, DSGD, and Hogwild!, using the published 30-epoch results.
+2. **RMSE convergence at 16 threads** — corresponding to the paper's convergence comparison.
+3. **Relative speedup vs. DSGD** — explicitly defined as `T_DSGD(p) / T_method(p)`.
+
+Do not mix these paper figures with conventional per-model speedup `T(1) / T(p)` unless the metric is clearly labeled.
+
+The current repository does not embed copyrighted IEEE page images. Re-created plots should be generated from documented numeric results.
