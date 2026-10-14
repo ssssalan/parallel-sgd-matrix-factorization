@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="540" viewBox="0 0 920 540" role="img" aria-label="Published Relative Speedup vs. DSGD">
+<rect width="100%" height="100%" fill="white"/>
+<text x="460" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700">Published Relative Speedup vs. DSGD</text>
+<line x1="86" y1="466" x2="888" y2="466" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="471" text-anchor="end" font-family="Arial, sans-serif" font-size="14">0.0</text>
+<line x1="86" y1="408" x2="888" y2="408" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="14">0.5</text>
+<line x1="86" y1="350" x2="888" y2="350" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="355" text-anchor="end" font-family="Arial, sans-serif" font-size="14">1.0</text>
+<line x1="86" y1="292" x2="888" y2="292" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="297" text-anchor="end" font-family="Arial, sans-serif" font-size="14">1.5</text>
+<line x1="86" y1="234" x2="888" y2="234" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="239" text-anchor="end" font-family="Arial, sans-serif" font-size="14">2.0</text>
+<line x1="86" y1="176" x2="888" y2="176" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="181" text-anchor="end" font-family="Arial, sans-serif" font-size="14">2.5</text>
+<line x1="86" y1="118" x2="888" y2="118" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="123" text-anchor="end" font-family="Arial, sans-serif" font-size="14">3.0</text>
+<line x1="86" y1="60" x2="888" y2="60" stroke="#d9d9d9" stroke-width="1"/>
+<text x="74" y="65" text-anchor="end" font-family="Arial, sans-serif" font-size="14">3.5</text>
+<line x1="86" y1="60" x2="86" y2="466" stroke="#f1f1f1" stroke-width="1"/>
+<text x="86" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">2</text>
+<line x1="353.3333333333333" y1="60" x2="353.3333333333333" y2="466" stroke="#f1f1f1" stroke-width="1"/>
+<text x="353.3333333333333" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">4</text>
+<line x1="620.6666666666666" y1="60" x2="620.6666666666666" y2="466" stroke="#f1f1f1" stroke-width="1"/>
+<text x="620.6666666666666" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">8</text>
+<line x1="888" y1="60" x2="888" y2="466" stroke="#f1f1f1" stroke-width="1"/>
+<text x="888" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">16</text>
+<line x1="86" y1="60" x2="86" y2="466" stroke="#333" stroke-width="1.5"/>
+<line x1="86" y1="466" x2="888" y2="466" stroke="#333" stroke-width="1.5"/>
+<text x="487" y="518" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Number of Threads</text>
+<text x="24" y="263" transform="rotate(-90 24 263)" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Relative Speedup</text>
+<polyline fill="none" stroke="#1f77b4" stroke-width="3" points="86,97.36196319018404 353.3333333333333,177.62616822429897 620.6666666666666,182.655737704918 888,118"/>
+<circle cx="86" cy="97.36196319018404" r="5" fill="#1f77b4" stroke="white" stroke-width="1.5"/>
+<circle cx="353.3333333333333" cy="177.62616822429897" r="5" fill="#1f77b4" stroke="white" stroke-width="1.5"/>
+<circle cx="620.6666666666666" cy="182.655737704918" r="5" fill="#1f77b4" stroke="white" stroke-width="1.5"/>
+<circle cx="888" cy="118" r="5" fill="#1f77b4" stroke="white" stroke-width="1.5"/>
+<polyline fill="none" stroke="#ff7f0e" stroke-width="3" points="86,232.1945525291829 353.3333333333333,226.80620155038758 620.6666666666666,235.54666666666662 888,222.4"/>
+<circle cx="86" cy="232.1945525291829" r="5" fill="#ff7f0e" stroke="white" stroke-width="1.5"/>
+<circle cx="353.3333333333333" cy="226.80620155038758" r="5" fill="#ff7f0e" stroke="white" stroke-width="1.5"/>
+<circle cx="620.6666666666666" cy="235.54666666666662" r="5" fill="#ff7f0e" stroke="white" stroke-width="1.5"/>
+<circle cx="888" cy="222.4" r="5" fill="#ff7f0e" stroke="white" stroke-width="1.5"/>
+<polyline fill="none" stroke="#7f7f7f" stroke-width="3" stroke-dasharray="8 6" points="86,350 353.3333333333333,350 620.6666666666666,350 888,350"/>
+<rect x="666" y="46" width="210" height="104" rx="8" fill="white" stroke="#ccc"/>
+<line x1="678" y1="70" x2="712" y2="70" stroke="#1f77b4" stroke-width="3"/>
+<circle cx="695" cy="70" r="4.5" fill="#1f77b4"/>
+<text x="722" y="75" font-family="Arial, sans-serif" font-size="14">A-ASGD vs. DSGD</text>
+<line x1="678" y1="98" x2="712" y2="98" stroke="#ff7f0e" stroke-width="3"/>
+<circle cx="695" cy="98" r="4.5" fill="#ff7f0e"/>
+<text x="722" y="103" font-family="Arial, sans-serif" font-size="14">Hogwild! vs. DSGD</text>
+<line x1="678" y1="126" x2="712" y2="126" stroke="#7f7f7f" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="722" y="131" font-family="Arial, sans-serif" font-size="14">DSGD baseline</text>
+</svg>
